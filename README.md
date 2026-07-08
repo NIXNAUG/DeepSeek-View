@@ -1,4 +1,4 @@
-# DeepSeek View - Android App
+# DeepSeek View - Android App（烂尾）
 
 一个 Android 原生外壳应用，封装 DeepSeek 网页体验，同时提供余额查询、Token 用量图表、API Key 管理和在线充值功能。
 
