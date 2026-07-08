@@ -6,8 +6,6 @@
 
 | 功能 | 说明 |
 |------|------|
-| **手机号登录** | Firebase Phone Auth，短信验证码登录 |
-| **微信登录** | 集成微信开放平台 SDK 授权登录 |
 | **余额查询** | 调用 DeepSeek `/user/balance` API，可视化展示余额 |
 | **Token 用量** | 调用 `/user/usage` API，圆环图展示输入/输出 Token 分布 |
 | **API Key 管理** | AES-256 加密本地存储，支持添加/查看/删除 |
