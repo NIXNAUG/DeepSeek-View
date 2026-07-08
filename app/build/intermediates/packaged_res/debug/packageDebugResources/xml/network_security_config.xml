@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Trust DeepSeek domains -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">deepseek.com</domain>
+        <domain includeSubdomains="true">deepseek.ai</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+
+    <!-- Default: system certs only, no cleartext -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
