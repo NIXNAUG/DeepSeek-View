@@ -36,7 +36,7 @@
 ### 2. 克隆项目
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/NIXNAUG/DeepSeek-View
 cd DeepSeek-View
 ```
 
